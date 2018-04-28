@@ -2,49 +2,60 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Claire Stolp Portfolio Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/queries.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
   </head>
   <body>
     <header>
       <div>
-        <a href="index.html"><h1 id="logo">Claire Stolp</h1></a>
+        <a href="index.html"><h1 class="hvr-sweep-to-right" id="logo">Claire Stolp</h1></a>
+        <i class="fas fa-bars fa-2x" id="menu-icon"></i>
         <ul id="nav">
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="index.html">About</a></li>
+          <li class="hvr-bob"><a href="portfolio.html">Portfolio</a></li>
+          <li class="hvr-bob"><a href="contact.html">Contact</a></li>
+          <li class="hvr-bob"><a href="index.html">About</a></li>
         </ul>
       </div>
     </header>
 
-    <section>
-      <h2 class="section-title">Portfolio</h2>
-      <hr>
-      <div class="div-set">
-        <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder1.jpg" alt="kitty1">
-        <p class="project-label">Project 1</p></a>
-      </div>
-      <div class="div-set">
-        <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder2.jpg" alt="kitty2">
-        <p class="project-label">Project 2</p></a>
-      </div>
-      <div class="div-set">
-        <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder3.jpg" alt="kitty1=3">
-        <p class="project-label">Project 3</p></a>
-      </div>
-      <div class="div-set">
-        <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder4.jpg" alt="kitty4">
-        <p class="project-label">Project 4</p></a>
-      </div>
-      <div class="div-set">
-        <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder5.jpg" alt="kitty5">
-        <p class="project-label">Project 5</p></a>
-      </div>
-      <div style="clear: both"></div>
-    </section>
-
+    <div class="wrapper">
+      <section>
+        <h2 class="section-title">Portfolio</h2>
+        <hr>
+        <div class="container">
+          <div class="div-set hvr-bob">
+            <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder1.jpg" alt="kitty1">
+              <p class="project-label">Project 1</p></a>
+          </div>
+          <div class="div-set hvr-bob">
+            <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder2.jpg" alt="kitty2">
+              <p class="project-label">Project 2</p></a>
+          </div>
+          <div class="div-set hvr-bob">
+            <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder3.jpg" alt="kitty1=3">
+              <p class="project-label">Project 3</p></a>
+          </div>
+          <div class="div-set hvr-bob">
+            <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder4.jpg" alt="kitty4">
+              <p class="project-label">Project 4</p></a>
+          </div>
+          <div class="div-set hvr-bob">
+            <a href="#" target="_blank"><img  class="project-image" src="assets/images/placeholder5.jpg" alt="kitty5">
+              <p class="project-label">Project 5</p></a>
+          </div>
+          <div style="clear: both"></div>
+        </div>
+      </section>
+    </div>
+    <div class="push"></div>
     <footer>
+      <a class="hvr-icon-grow" href="https://github.com/clairestolp" target="_blank"><i class="fab fa-github hvr-icon"></i></a>
+      <a class="hvr-icon-grow" href="https://www.linkedin.com/in/claire-stolp/" target="_blank"><i class="fab fa-linkedin-in hvr-icon"></i></a>
       Copyright &copy; 2018
     </footer>
   </body>

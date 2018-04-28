@@ -2,42 +2,51 @@
 
 <html>
   <head>
-    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Claire Stolp's About Me</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/queries.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
   </head>
 
   <body>
     <header>
       <div>
-        <a href="index.html"><h1 id="logo">Claire Stolp</h1></a>
+        <a href="index.html"><h1 class="hvr-sweep-to-right" id="logo">Claire Stolp</h1></a>
+        <i class="fas fa-bars fa-2x" id="menu-icon"></i>
         <ul id="nav">
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="index.html">About</a></li>
+            <li class="hvr-bob"><a href="portfolio.html">Portfolio</a></li>
+            <li class="hvr-bob"><a href="contact.html">Contact</a></li>
+            <li class="hvr-bob"><a href="index.html">About</a></li>
           </ul>
         </ul>
       </div>
     </header>
 
-    <section>
-      <h2 class="section-title">About Me</h2>
-      <hr noshade>
-      <img id="profile" src="assets/images/profile.png" alt="Claire Stolp Profile">
-      <br>
-      <p class="tab">My name is Claire Stolp and I'm a web developer based in Raleigh, North Carolina. I have taken a somewhat windy road to development but the sum of these experiences are what make me who I am as a developer. I went to college for music education, learned Japanese, then went on to teach English in Japan for four years. It was in Japan that I stumbled upon web development. It was certainly a wild ride, but these are important life experiences that continue to inspire me and my code today.
-      </p>
-      <br>
-      <p class="tab">
-        As a developer, I believe that from front to back web applications should be both inspired and intuitive. I strive to make applications that combine just the right amount of convention and invention to draw the user into the experience.
-      </p>
-      <br>
-      <p class="tab">
-        I am currently attending UNC Chapel Hill's Coding Boot Camp, a full stack web development program that covers HTML, CSS, JavaScript and the MERN software stack. Other technologies covered in the course include C#, ASP.NET, SEO and MySQL. Graduation is anticipated October, 2018.
-      </p>
-    </section>
-
+    <div class="wrapper">
+      <section>
+        <h2 class="section-title">About Me</h2>
+        <hr noshade>
+        <img id="profile" src="assets/images/profile.png" alt="Claire Stolp Profile">
+        <br>
+        <p class="tab">My name is Claire Stolp and I'm a web developer based in Raleigh, North Carolina. I have taken a somewhat windy road to development but the sum of these experiences are what make me who I am as a developer. I went to college for music education, learned Japanese, then went on to teach English in Japan for four years. It was in Japan that I stumbled upon web development. It was certainly a wild ride, but these are important life experiences that continue to inspire me and my code today.
+        </p>
+        <br>
+        <p class="tab">
+          As a developer, I believe that from front to back web applications should be both inspired and intuitive. I strive to make applications that combine just the right amount of convention and invention to draw the user into the experience.
+        </p>
+        <br>
+        <p class="tab">
+          I am currently attending UNC Chapel Hill's Coding Boot Camp, a full stack web development program that covers HTML, CSS, JavaScript and the MERN software stack. Other technologies covered in the course include C#, ASP.NET, SEO and MySQL. Graduation is anticipated October, 2018.
+        </p>
+      </section>
+    </div>
+    <div class="push"></div>
     <footer>
+      <a class="hvr-icon-grow" href="https://github.com/clairestolp" target="_blank"><i class="fab fa-github hvr-icon"></i></a>
+      <a class="hvr-icon-grow" href="https://www.linkedin.com/in/claire-stolp/" target="_blank"><i class="fab fa-linkedin-in hvr-icon"></i></a>
       Copyright &copy; 2018
     </footer>
 

@@ -1,0 +1,94 @@
+/*phone*/
+@media screen and (min-width: 300px) {
+  section {
+    margin: auto;
+    width: 70%;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #menu-icon {
+    display: initial;
+    color: #ffffff;
+    float: right;
+    padding: 20px;
+  }
+
+  #profile {
+    float: initial;
+    display: block;
+    margin: auto;
+  }
+
+  form {
+    margin: auto;
+  }
+
+  textarea, #username{
+    max-width: 95%;
+  }
+
+  .div-set, .project-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .project-label {
+    width: 150px;
+    padding: 5px 0px 5px 0px;
+    font-size: 13px;
+  }
+
+}
+
+/*tablet portirait*/
+@media screen and (min-width: 600px) {
+  #profile {
+    float: left;
+    margin: 30px;
+  }
+}
+/*tablet landscape*/
+@media screen and (min-width: 900px) {
+  #menu-icon {
+    display: none;
+  }
+
+  #nav {
+    display: initial;
+  }
+
+  textarea {
+    max-width: 600px;
+  }
+
+  .div-set, .project-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .project-label {
+    width: 200px;
+    padding: 8px 0px 8px 0px;
+    font-size: 16px;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 1200px) {
+  section {
+    max-width: 960px;
+  }
+
+  .div-set, .project-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .project-label {
+    width: 250px;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+  }
+}
